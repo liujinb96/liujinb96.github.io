@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jinbao Liu
+title: 刘金宝
 
 # Name pronunciation (optional)
 name_pronunciation: ''
