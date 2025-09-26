@@ -1,5 +1,6 @@
 ---
 title: Publications
+url: /papers/
 cms_exclude: true
 
 # View.
