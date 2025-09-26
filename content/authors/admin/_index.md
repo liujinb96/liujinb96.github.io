@@ -6,8 +6,8 @@ title: Jinbao Liu
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Jinbao
-last_name: Liu
+first_name: 刘金宝
+last_name:
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,12 +23,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Candidate in Sociology
+role: Ph.D.
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Renmin University of China
-    url: https://ssr.ruc.edu.cn/
+    url: 
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -37,21 +37,19 @@ profiles:
     url: 'mailto:alex.johnson@meta.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: 
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/liujinb96
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: 
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: 
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: 
 
 interests:
   - Large Language Models
   - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
 
 education:
   - area: PhD Computer Science (AI Focus)
