@@ -115,7 +115,7 @@
 # About widget
 
 - id: interests
-  translation: 兴趣爱好
+  translation: 研究兴趣
 
 - id: education
   translation: 教育经历
@@ -284,7 +284,7 @@
 # Published with
 
 - id: published_with
-  translation: 由{hugoblox}支持发布——免费{repo_link}开源{/repo_link}网站，为创作者赋能。
+  translation:
 
 - id: poweredby_button
-  translation: '构建您的 →'
+  translation: ''
