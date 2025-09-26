@@ -15,13 +15,19 @@
     echo "Go version: $(go version || echo 'Go not available')"
     
     echo "=== Installing dependencies ==="
-    pnpm install --verbose
+    if ! pnpm install --verbose; then
+      echo "pnpm install failed, retrying with npm..."
+      npm install --verbose
+    fi
     
     echo "=== Running Hugo build ==="
     hugo --gc --minify -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
     
     echo "=== Running Pagefind indexing ==="
-    pnpm dlx pagefind --source 'public' --verbose
+    if ! pnpm dlx pagefind --source 'public' --verbose; then
+      echo "pnpm dlx failed, retrying with npx..."
+      npx pagefind --source 'public' --verbose
+    fi
     
     echo "=== Build completed successfully ==="
   """
@@ -50,9 +56,15 @@
       corepack enable || true
       corepack prepare pnpm@10.14.0 --activate
     fi
-    pnpm install --verbose
+    if ! pnpm install --verbose; then
+      echo "pnpm install failed, retrying with npm..."
+      npm install --verbose
+    fi
     hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    pnpm dlx pagefind --source 'public' --verbose
+    if ! pnpm dlx pagefind --source 'public' --verbose; then
+      echo "pnpm dlx failed, retrying with npx..."
+      npx pagefind --source 'public' --verbose
+    fi
   """
 
 [context.branch-deploy]
@@ -65,9 +77,15 @@
       corepack enable || true
       corepack prepare pnpm@10.14.0 --activate
     fi
-    pnpm install --verbose
+    if ! pnpm install --verbose; then
+      echo "pnpm install failed, retrying with npm..."
+      npm install --verbose
+    fi
     hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    pnpm dlx pagefind --source 'public' --verbose
+    if ! pnpm dlx pagefind --source 'public' --verbose; then
+      echo "pnpm dlx failed, retrying with npx..."
+      npx pagefind --source 'public' --verbose
+    fi
   """
 
 [[plugins]]

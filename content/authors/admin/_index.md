@@ -64,7 +64,7 @@ education:
   - area: 社会学硕士
     institution: 人民大学
     date_start: 2019-09-01
-    date_end: 2021-06-31
+    date_end: 2021-06-30
     summary: |
       GPA: 4.0/4.0
 
