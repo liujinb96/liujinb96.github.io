@@ -13,5 +13,9 @@
     "@tailwindcss/typography": "^0.5.10",
     "preact": "^10.27.2",
     "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.0",
+    "eslint-plugin-unicorn": "^60.0.0"
   }
 }
