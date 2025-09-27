@@ -34,14 +34,12 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:liujinbao@ruc.edu.cn'
     label: E-mail Me
-  - icon: brands/x
-    url: 
   - icon: brands/github
     url: https://github.com/liujinb96
   - icon: brands/linkedin
-    url: 
+    url: https://linkedin.com/in/jinbao-liu
   - icon: academicons/google-scholar
     url: 
   - icon: academicons/orcid
@@ -57,26 +55,26 @@ education:
     date_start: 2021-09-01
     date_end: 2026-06-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
+      研究方向：社会分层与社会心态。
+  - area: 联合培养博士生
+    institution: 印第安纳大学 Bloomington 校区
+    date_start: 2023-10
+    date_end: 2024-10
+    summary: |
+      国家留学基金委联合培养。
   - area: 社会学硕士
     institution: 人民大学
     date_start: 2019-09-01
     date_end: 2021-06-30
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
+      研究主题聚焦国家政策与生活机遇。
+      课程涵盖社会统计分析与社会理论前沿。
   - area: 社会学本科
     institution: 中央财经大学
     date_start: 2015-09-01
     date_end: 2019-05-31
     summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      辅修金融学。
 
 work:
   - position: Senior AI Research Scientist
