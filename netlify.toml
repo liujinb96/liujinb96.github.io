@@ -11,7 +11,7 @@
     echo "Cleaning previous node_modules cache"
     rm -rf node_modules package-lock.json pnpm-lock.yaml
     npm cache clean --force
-    npm install --omit=dev --legacy-peer-deps --verbose
+    npm install --legacy-peer-deps --verbose
     
     echo "=== Running Hugo build ==="
     hugo --gc --minify -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
@@ -43,7 +43,7 @@
     echo "Cleaning previous node_modules cache"
     rm -rf node_modules package-lock.json pnpm-lock.yaml
     npm cache clean --force
-    npm install --omit=dev --legacy-peer-deps --verbose
+    npm install --legacy-peer-deps --verbose
     hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
     npx --yes pagefind@1.1.0 --source 'public' --verbose
   """
@@ -56,7 +56,7 @@
     echo "Cleaning previous node_modules cache"
     rm -rf node_modules package-lock.json pnpm-lock.yaml
     npm cache clean --force
-    npm install --omit=dev --legacy-peer-deps --verbose
+    npm install --legacy-peer-deps --verbose
     hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
     npx --yes pagefind@1.1.0 --source 'public' --verbose
   """

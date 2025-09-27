@@ -13,5 +13,11 @@
     "@tailwindcss/typography": "^0.5.10",
     "preact": "^10.27.2",
     "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.4.0",
+    "eslint": "^9.36.0",
+    "eslint-config-webpack": "^4.6.3",
+    "eslint-plugin-unicorn": "^60.0.0"
   }
 }
