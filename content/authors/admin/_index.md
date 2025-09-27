@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: 刘金宝
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: 
+last_name: 
 
 # Pronouns (optional)
 pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 🧐
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,62 +23,61 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Ph.D.
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
+  - name: Renmin University of China
     url: https://ai.meta.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:liujinbao@ruc.edu.cn'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/liujinb96
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://linkedin.com/in/jinbao-liu
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: 
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: 
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - 社会分层与流动
+  - 社会心态
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: 社会学博士
+    institution: 人民大学
+    date_start: 2021-09-01
+    date_end: 2026-06-30
     summary: |
       Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+  - area: 联合培养博士生
+    institution: 印第安纳大学 Bloomington 校区
+    date_start: 2023-10
+    date_end: 2024-10
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+      国家留学基金委联合培养。
+  - area: 社会学硕士
+    institution: 人民大学
+    date_start: 2019-09-01
+    date_end: 2021-06-30
     summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      研究主题聚焦国家政策与生活机遇。
+      课程涵盖社会统计分析与社会理论前沿。
+  - area: 社会学本科
+    institution: 中央财经大学
+    date_start: 2015-09-01
+    date_end: 2019-05-31
+    summary: |
+      辅修金融学。
 
 work:
   - position: Senior AI Research Scientist
@@ -166,4 +165,4 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+我是刘金宝
