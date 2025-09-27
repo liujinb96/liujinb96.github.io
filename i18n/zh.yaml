@@ -284,7 +284,7 @@
 # Published with
 
 - id: published_with
-  translation: 
+  translation: 发布于
 
 - id: poweredby_button
-  translation: 
+  translation: 了解 Hugo Blox
