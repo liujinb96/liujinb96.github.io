@@ -8,6 +8,8 @@
     echo "Go version: $(go version || echo 'Go not available')"
     
     echo "=== Installing dependencies ==="
+    echo "Cleaning previous node_modules cache"
+    rm -rf node_modules package-lock.json pnpm-lock.yaml
     npm cache clean --force
     npm install --legacy-peer-deps --verbose
     
@@ -38,6 +40,8 @@
     set -e
     echo "=== Deploy Preview Build ==="
     echo "Deploy URL: $DEPLOY_PRIME_URL"
+    echo "Cleaning previous node_modules cache"
+    rm -rf node_modules package-lock.json pnpm-lock.yaml
     npm cache clean --force
     npm install --legacy-peer-deps --verbose
     hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
@@ -49,6 +53,8 @@
     set -e
     echo "=== Branch Deploy Build ==="
     echo "Deploy URL: $DEPLOY_PRIME_URL"
+    echo "Cleaning previous node_modules cache"
+    rm -rf node_modules package-lock.json pnpm-lock.yaml
     npm cache clean --force
     npm install --legacy-peer-deps --verbose
     hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
