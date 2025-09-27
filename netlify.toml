@@ -14,7 +14,7 @@
     hugo --gc --minify -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
     
     echo "=== Running Pagefind indexing ==="
-    npx pagefind --source 'public' --verbose
+    npx --yes pagefind@1.1.0 --source 'public' --verbose
     
     echo "=== Build completed successfully ==="
   """
@@ -39,7 +39,7 @@
     echo "Deploy URL: $DEPLOY_PRIME_URL"
     npm install --verbose
     hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    npx pagefind --source 'public' --verbose
+    npx --yes pagefind@1.1.0 --source 'public' --verbose
   """
 
 [context.branch-deploy]
@@ -49,7 +49,7 @@
     echo "Deploy URL: $DEPLOY_PRIME_URL"
     npm install --verbose
     hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    npx pagefind --source 'public' --verbose
+    npx --yes pagefind@1.1.0 --source 'public' --verbose
   """
 
 [[plugins]]
