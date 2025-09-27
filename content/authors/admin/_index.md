@@ -61,8 +61,8 @@ education:
       url: 'https://example.com/thesis.pdf'
   - area: 联合培养博士生
     institution: 印第安纳大学 Bloomington 校区
-    date_start: 2023-10
-    date_end: 2024-10
+    date_start: 2023-10-01
+    date_end: 2024-10-01
     summary: |
       国家留学基金委联合培养。
   - area: 社会学硕士
