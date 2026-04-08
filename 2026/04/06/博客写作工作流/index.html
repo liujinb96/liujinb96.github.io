@@ -45,7 +45,7 @@
     lang   : 'zh-CN'
   };
 </script>
-<link rel="dns-prefetch" href="https://blog-waline-bnno0306x-andkacucs-projects.vercel.app">
+
   <title>博客写作工作流 | Liu's Blog</title>
   
 
@@ -229,21 +229,7 @@
                 </span>
             </span>
 
-          
-  
-  <span class="post-meta-item">
-    
-    <span class="post-meta-item-icon">
-      <i class="far fa-comment"></i>
-    </span>
-    <span class="post-meta-item-text">Waline：</span>
-  
-    <a title="waline" href="/2026/04/06/%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E5%B7%A5%E4%BD%9C%E6%B5%81/#waline" itemprop="discussionUrl">
-      <span class="post-comments-count waline-comment-count" data-path="/2026/04/06/%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E5%B7%A5%E4%BD%9C%E6%B5%81/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
+          <br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -294,13 +280,10 @@
 
         
     <div class="post-nav">
+      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2026/04/06/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/" rel="prev" title="测试博客">
-      <i class="fa fa-chevron-left"></i> 测试博客
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2026/04/08/Hello/" rel="next" title="Hello">
-      Hello <i class="fa fa-chevron-right"></i>
+    <a href="/2026/04/06/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/" rel="next" title="测试博客">
+      测试博客 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -314,7 +297,6 @@
 
           </div>
           
-    <div class="comments" id="waline"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -375,17 +357,21 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
         <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">分类</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
         <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">标签</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -505,17 +491,6 @@
   
 
   
-<script class="next-config" data-name="waline">(function(){if (typeof CONFIG !== 'object') return; CONFIG.waline = Object.assign({}, CONFIG.waline || {}, {"lang":"zh-CN","enable":true,"serverURL":"https://blog-waline-bnno0306x-andkacucs-projects.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"dark":"auto","el":"#waline","comment":true,"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","path":"/2026/04/06/%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E5%B7%A5%E4%BD%9C%E6%B5%81/"});})();</script>
-<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
-<script>
-document.addEventListener('page:loaded', () => {
-  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
-    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
-  ).then(() => 
-    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
-  );
-});
-</script>
 <script>
 (function() {
   if (!window.NexT || !NexT.utils) return;
