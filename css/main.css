@@ -205,7 +205,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: 'BlogJetBrainsMono', 'BlogFZPXYS', sans-serif;
+  font-family: 'MapleMonoNFCN', 'FZPXYS', sans-serif;
   font-size: 1em;
   line-height: 2;
 }
@@ -221,7 +221,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'BlogFZPXYS', 'BlogJetBrainsMono', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'FZPXYS', 'MapleMonoNFCN', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -448,7 +448,7 @@ pre {
 }
 pre,
 code {
-  font-family: 'BlogJetBrainsMono', consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
+  font-family: 'MapleMonoNFCN', consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
 code {
   background: #eee;
@@ -1042,7 +1042,7 @@ pre .javascript .function {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: 'BlogJetBrainsMono', 'BlogJetBrainsMono', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'MapleMonoNFCN', 'MapleMonoNFCN', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1224,7 +1224,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #1dff69;
+  background: #49f0d4;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1551,7 +1551,7 @@ pre .javascript .function {
   opacity: 0.8;
 }
 .post-body {
-  font-family: 'BlogFZPXYS', 'BlogJetBrainsMono', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'FZPXYS', 'MapleMonoNFCN', "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -1849,7 +1849,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: 'BlogFZPXYS', 'BlogJetBrainsMono', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'FZPXYS', 'MapleMonoNFCN', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin: 3px 0 60px 0;
   text-align: center;
@@ -2709,23 +2709,30 @@ ul.breadcrumb li + li:last-child {
   }
 }
 @font-face {
-  font-family: 'BlogJetBrainsMono';
-  src: url("/fonts/JetBrainsMono-Regular.ttf") format('truetype');
+  font-family: 'MapleMonoNFCN';
+  src: url("/fonts/MapleMono-NF-CN-Regular.ttf") format('truetype');
   font-display: swap;
-  unicode-range: U+0000-00FF, U+0100-024F, U+1E00-1EFF, U+2000-206F, U+2070-209F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2200-22FF, U+2300-23FF, U+2460-24FF, U+2500-257F, U+2580-259F, U+25A0-25FF, U+2600-26FF, U+2700-27BF, U+2B00-2BFF, U+1F600-1F64F;
+  unicode-range: U+0000-00FF, U+0100-024F, U+1E00-1EFF, U+2000-206F, U+2070-209F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2200-22FF, U+2300-23FF, U+2460-24FF, U+2500-257F, U+2580-259F, U+25A0-25FF, U+2600-26FF, U+2700-27BF, U+2B00-2BFF, U+E000-F8FF, U+1F600-1F64F;
 }
 @font-face {
-  font-family: 'BlogFZPXYS';
-  src: url("/fonts/Fzpxys.TTF") format('truetype');
+  font-family: 'FZPXYS';
+  src: url("/fonts/FZPXYS.TTF") format('truetype');
   font-display: swap;
   unicode-range: U+2E80-2EFF, U+3000-303F, U+31C0-31EF, U+3400-9FFF, U+F900-FAFF, U+FE10-FE1F, U+FE30-FE4F, U+FF00-FFEF;
 }
 body {
-  font-family: 'BlogJetBrainsMono', 'BlogFZPXYS', sans-serif;
+  font-family: 'MapleMonoNFCN', 'FZPXYS', sans-serif;
+}
+.post-body,
+.post-title,
+.site-title,
+.logo-line-before i,
+.logo-line-after i {
+  font-family: 'MapleMonoNFCN', 'FZPXYS', sans-serif;
 }
 code,
 kbd,
 pre,
 samp {
-  font-family: 'BlogJetBrainsMono', monospace;
+  font-family: 'MapleMonoNFCN', monospace;
 }
