@@ -37,25 +37,4 @@
     
   </entry>
   
-  <entry>
-    <title>博客写作工作流</title>
-    <link href="http://example.com/2026/04/06/%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
-    <id>http://example.com/2026/04/06/%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E5%B7%A5%E4%BD%9C%E6%B5%81/</id>
-    <published>2026-04-06T09:54:08.514Z</published>
-    <updated>2026-04-08T03:06:37.300Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h1><p>终于差不多琢磨明白了使用<a href="https://hexo.io/">Hexo</a>搭配<a href="https://github.com/theme-next/hexo-theme-next">next</a>作为主题，并通过GitHub Pages来部署个人静态博客的方法。于是想写一篇短文来记录我的个人博客配置经历，记录基本的配置方法（万一哪天突然想不起来了也好用作参考），并以此作为我的第一篇正式文章。</p><h1 id="写给自己的博客部署教程"><a href="#写给自己的博客部署教程" class="headerlink" title="写给自己的博客部署教程"></a>写给自己的博客部署教程</h1><h2 id="为什么要创建一个博客？"><a href="#为什么要创建一个博客？" class="headerlink" title="为什么要创建一个博客？"></a>为什么要创建一个博客？</h2><p>正如写论文一样，做很多事情的第一个问题就是“为什么？不做行不行？”在即时通讯和社交媒体如此发达的今天，写博客似乎已成成为了一种非常“老派”的做法。虽然我也没有经历过博客和校园内网如日中天的时代，但是，我依然认为博客是一个很好的记录和表达的平台，主要有以下几个方面的原因。</p><p>首先，我想养成日常写作的习惯。</p><p>写一篇博客测试从本地推送到GitHub pages新博客文章的方法记录。<br>在Blog_Netlify中进行修改。<br>在本地写好文章后执行。<br>hexo clear<br>hexo g<br>hexo d</p><p>2025.10.20 于Cursor客户端远程连接阿里云服务器更新。</p><p>2026.04.06 测试新方法</p><p>直接更改GitHub内容，hexo clean, hexo g, hexo d<br>然后将更改推送到GitHub，或许可以绕开连接远程主机。</p>]]></content>
-    
-    
-    <summary type="html">推送新博文方法记录</summary>
-    
-    
-    
-    <category term="tcat" scheme="http://example.com/categories/tcat/"/>
-    
-    
-    <category term="test" scheme="http://example.com/tags/test/"/>
-    
-  </entry>
-  
 </feed>
