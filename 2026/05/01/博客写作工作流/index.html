@@ -20,28 +20,33 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":3,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Liu&#39;s Blog">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="推送新博文方法记录">
+<meta property="og:type" content="article">
+<meta property="og:title" content="博客写作工作流">
+<meta property="og:url" content="http://example.com/2026/05/01/%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E5%B7%A5%E4%BD%9C%E6%B5%81/index.html">
 <meta property="og:site_name" content="Liu&#39;s Blog">
+<meta property="og:description" content="推送新博文方法记录">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-05-01T06:06:28.000Z">
+<meta property="article:modified_time" content="2026-05-01T06:08:40.795Z">
 <meta property="article:author" content="刘金宝">
+<meta property="article:tag" content="test">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2026/05/01/%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E5%B7%A5%E4%BD%9C%E6%B5%81/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Liu's Blog</title>
+  <title>博客写作工作流 | Liu's Blog</title>
   
 
 
@@ -175,9 +180,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -193,10 +199,9 @@
       <meta itemprop="name" content="Liu's Blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2026/05/01/%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E5%B7%A5%E4%BD%9C%E6%B5%81/" class="post-title-link" itemprop="url">博客写作工作流</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          博客写作工作流
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -233,6 +238,7 @@
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
               <span>2 分钟</span>
             </span>
+            <div class="post-description">推送新博文方法记录</div>
 
         </div>
       </header>
@@ -243,119 +249,69 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>推送新博文方法记录</p>
-          <!--noindex-->
-          <!--/noindex-->
-        
-      
+        <h1 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h1><p>终于差不多琢磨明白了使用<a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>搭配<a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next">next</a>作为主题，并通过GitHub Pages来部署个人静态博客的方法。于是想写一篇短文来记录我的个人博客配置经历，记录基本的配置方法（万一哪天突然想不起来了也好用作参考），并以此作为我的第一篇正式文章。</p>
+<p>正如写论文一样，做很多事情的第一个问题就是“为什么？不做行不行？”在即时通讯和社交媒体如此发达的今天，写博客似乎已成成为了一种非常“老派”的做法。虽然我也没有经历过博客和校园内网如日中天的时代，但是，我依然认为博客是一个很好的记录和表达的平台。那么，为什么要搭一个自己的博客呢？</p>
+<p>首先，我想养成日常写作的习惯。写博客对我来说是一个“积硅步”的过程。养成一个习惯本就不是一件易事，写作习惯更是如此。因为写作习惯不仅需要坚持，更需要表达能力和表达欲望。我不认为自己是一个表达欲望和能力很强的人，写博客的方式在某种程度上也是在通过强迫自己向外输出来锻炼自己的语言表达。</p>
+<p>其次，我想精进计算编程的技能。搭博客对我来说是一个“刚刚好”的工作。对于我这样一个没有很多计算机基础知识，但是却又想在AI迅速发展的时代学点东西的初学者来说，搭博客过程中博客框架、源代码管理、命令行工具等一系列的新知识让我也感觉到自己在这个信息爆炸的时代，做了一件有意思的事情。</p>
+<p>于是，2025年下半年我就萌生了搭建博客的想法。奈何各种杂事缠身，从零开始学习博客搭建的各类技术也需要消耗大量的时间，没想到这件事就断断续续干了大半年。中间虽有几次短暂的发布尝试，但仍觉得不够成熟。直到最近，终于摸索了一套自己的博客写作和发布的工作流，才终于下定决心系统梳理一下创建、发布博客的流程，既作为这个个人小博客的第一篇正式文章，也作为给自己的一份备忘。</p>
+<h1 id="写给自己的博客部署教程"><a href="#写给自己的博客部署教程" class="headerlink" title="写给自己的博客部署教程"></a>写给自己的博客部署教程</h1><p>搭建博客的第一步是选择一个合适的外观样式。在搜寻了不少牛人的经验，尝试了<a target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>搭建并使用<a target="_blank" rel="noopener" href="https://www.netlify.com/">Netlify</a>托管、<a target="_blank" rel="noopener" href="https://wordpress.com/">Wordpress</a>建站等方法之后，最终还是被Next主题的简洁和易于配置的特点所吸引，选择了使用Hexo来搭建静态网站并使用GitHub Pages托管。并不是因为Hugo等方法不好，只是因为在我看来，Hugo提供的主题似乎更适合个人主页的展示（我确实使用Hugo搭配Netlify搭建了我的<a target="_blank" rel="noopener" href="https://liujinbao.netlify.app/">个人网站</a>，而Hexo的Next主题搭配GitHub Pages恰巧满足了我对于博客简洁、好配置的需求。</p>
+<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>在确定了自己的需求后，这个过程就变得简单了起来，按照Hexo官网的配置方式，通过Homebrew安装Hexo：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install hexo</span><br></pre></td></tr></table></figure>
+
+<h2 id="新博客文章的生成"><a href="#新博客文章的生成" class="headerlink" title="新博客文章的生成"></a>新博客文章的生成</h2><p>进入博客文件夹目录后，依次执行</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ hexo new <span class="string">&quot;我的第一篇博客&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>就会在source目录的posts文件夹下生成一篇新的博客草稿。需要注意的是，在posts文件夹下的博客在后续过程中会被Hexo渲染生成博客文章页面，如果希望留一份草稿留待后续发表，可以使用</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new draft <span class="string">&quot;新草稿&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>来在source目录的drafts文件夹下生成一篇草稿，在写作完成后使用</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish <span class="string">&quot;新草稿&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>命令发布草稿（将drafts文件夹下的文稿移至posts文件夹）。</p>
+<p>为了检查文章的显示效果并在撰写过程中进行调试，可以先启动一个本地服务，时刻检查博客的布局与显示情况，命令为：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>此命令会在本地的4000端口生成一个预览版的博客供检查和调整。</p>
+<h2 id="文章渲染与发表"><a href="#文章渲染与发表" class="headerlink" title="文章渲染与发表"></a>文章渲染与发表</h2><p>在生成新文章并用md格式写作完成后，需要将md格式的文章通过Hexo渲染为静态网页的格式。只需执行如下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Clean the cache file (db.json) and generated files (public/)</span></span><br><span class="line">$ hexo clean</span><br><span class="line"><span class="comment"># Generate static files</span></span><br><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>这两条命令将清除目前已有的缓存，并将新写好的博客文章渲染为静态网页文件，准备发表。</p>
+<p>在正式推送发表前，需要在博客文件夹根目录下的_config.yml文件中对部署方式进行设置，一般设置方式如下：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:用户名/用户名.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
+
+<p>部署发布文章的命令为：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>至此，source目录的posts文件夹下的文章将会依照设置好的方式被推送至GitHub Pages等平台。</p>
+
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2026/04/06/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="刘金宝">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Liu's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2026/04/06/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">测试博客</a>
-        </h2>
+          <div class="post-tags">
+              <a href="/tags/test/" rel="tag"><i class="fa fa-tag"></i> test</a>
+          </div>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2026-04-06 17:54:08" itemprop="dateCreated datePublished" datetime="2026-04-06T17:54:08+08:00">2026-04-06</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2026-04-14 11:28:42" itemprop="dateModified" datetime="2026-04-14T11:28:42+08:00">2026-04-14</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/tcat/" itemprop="url" rel="index"><span itemprop="name">tcat</span></a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/tcat2/" itemprop="url" rel="index"><span itemprop="name">tcat2</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>870</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>这是一条测试博客</p>
-          <!--noindex-->
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2026/04/06/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/" rel="prev" title="测试博客">
+      <i class="fa fa-chevron-left"></i> 测试博客
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -408,6 +364,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BC%98%E8%B5%B7"><span class="nav-number">1.</span> <span class="nav-text">缘起</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%99%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">写给自己的博客部署教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87"><span class="nav-number">2.1.</span> <span class="nav-text">环境准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B0%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%9A%84%E7%94%9F%E6%88%90"><span class="nav-number">2.2.</span> <span class="nav-text">新博客文章的生成</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E6%B8%B2%E6%9F%93%E4%B8%8E%E5%8F%91%E8%A1%A8"><span class="nav-number">2.3.</span> <span class="nav-text">文章渲染与发表</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
